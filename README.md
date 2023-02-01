@@ -1,7 +1,9 @@
 # extract_locusID_vcf
 A script to extract locus IDs from vcfs produced by populations when using a vcf file as input
 
-Run like this: python3 extractIDvcf.py populations.sorted.snps.vcf cov6_spicgrp.sorted.recode.p.snps.vcf
+Run like this: 
+
+python3 extractIDvcf.py populations.sorted.snps.vcf cov6_spicgrp.sorted.recode.p.snps.vcf
 
 !!!!! don't forget to check for duplicates that slip through and remove them!
 
